@@ -75,7 +75,7 @@
 .header_login .subscribe {
     font-size: 16px;
     background-color: transparent;
-    color: var(--bg-ligthgrey-color);
+    color: var(--bg-mediumgrey-color);
     border: none;
     font-weight: 700;
     margin-right: 32px;
@@ -93,7 +93,7 @@
 
 .header_login .subscribe:hover {
     transform: scale(1.04);
-    color: #fff;
+    color: var(--bg-white-color);
   }
 
 .header_login .login:hover {
