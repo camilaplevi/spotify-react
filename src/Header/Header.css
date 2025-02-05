@@ -1,0 +1,101 @@
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: #121212;
+    max-width: 80vw;
+    margin-left: 330px;
+    margin-right: 15px;
+}
+
+.header_navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation .navigation .arrow_left {
+    margin-right: 1.25rem;
+}
+
+.arrow_left,
+.arrow_rigth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header_login {
+    display: flex;
+    align-items: center;
+  }
+
+.header_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 364px;
+    height: 48px;
+    background-color: var(--bg-input-color);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input {
+    background-color: transparent;
+    border: none;
+    padding: 0px 120px 0 12px;
+    color: var(--bg-white-color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header_search:hover {
+    border: 1px solid #fff;
+}
+
+
+.header_login .subscribe {
+    font-size: 16px;
+    background-color: transparent;
+    color: var(--bg-ligthgrey-color);
+    border: none;
+    font-weight: 700;
+    margin-right: 32px;
+}
+
+.header_login .login {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--bg-white-color);
+    width: 100px;
+    height: 48px;
+    border-radius: 500px;
+    border: none;
+}
+
+.header_login .subscribe:hover {
+    transform: scale(1.04);
+    color: #fff;
+  }
+
+.header_login .login:hover {
+    transform: scale(1.04);
+}
