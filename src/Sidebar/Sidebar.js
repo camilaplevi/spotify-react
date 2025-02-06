@@ -34,7 +34,7 @@ const Sidebar = () => {
                 <div className="library_content">
                     <button className="library_button">
                         <span><FontAwesomeIcon icon={faBook} /></span>
-                        <span>Sua biblioteca</span>
+                        <span className='libraryTextButton'>Sua biblioteca</span>
                     </button>
                     <span><FontAwesomeIcon icon={faPlus} /></span>
                 </div>
