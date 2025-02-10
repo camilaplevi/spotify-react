@@ -1,8 +1,9 @@
 import './App.css';
-import Header from './Header/Header';
-import Sidebar from './Sidebar/Sidebar';
-import Main from './Main/main';
-import Footer from './Footer/Footer';
+import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
+import Main from './components/Main/main';
+import Footer from './components/Footer/Footer';
+import './script';
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
     <Header/>
     <Main/>
     <Footer/>
-    </div>
-    
+    </div> 
   );
 }
 

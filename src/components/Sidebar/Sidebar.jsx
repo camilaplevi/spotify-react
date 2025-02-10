@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
-import '../var.css';
-import logoSpotify from '../assets/icons/logo-spotify.png';
+import '../var.css'
+import logoSpotify from '../../assets/icons/logo-spotify.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faSearch, faGlobe, faBook, faPlus } from '@fortawesome/free-solid-svg-icons';
 

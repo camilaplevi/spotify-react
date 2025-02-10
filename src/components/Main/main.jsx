@@ -1,21 +1,21 @@
 import React from "react";
-import "../Main/main";
 import "./main.css";
-import PlaylistOne from "../assets/playlist/1.jpeg";
-import PlaylistTwo from "../assets/playlist/2.png";
-import PlaylistTrhee from "../assets/playlist/3.jpeg";
-import PlaylistFour from "../assets/playlist/4.jpeg";
-import PlaylistFive from "../assets/playlist/5.jpeg";
-import PlaylistSix from "../assets/playlist/6.jpeg";
-import PlaylistSeven from "../assets/playlist/7.jpeg";
-import PlaylistEigth from "../assets/playlist/8.jpeg";
-import PlaylistNine from "../assets/playlist/9.jpeg";
-import PlaylistTen from "../assets/playlist/10.jpeg";
-import PlaylistEleven from "../assets/playlist/11.jpeg";
-import PlaylistTwelve from "../assets/playlist/12.jpeg";
-import PlaylistThirteen from "../assets/playlist/13.jpeg";
-import PlaylistFourteen from "../assets/playlist/14.jpeg";
-import PlaylistFifteen from "../assets/playlist/15.jpeg";
+import '../var.css';
+import PlaylistOne from "../../assets/playlist/1.jpeg";
+import PlaylistTwo from "../../assets/playlist/2.png";
+import PlaylistTrhee from "../../assets/playlist/3.jpeg";
+import PlaylistFour from "../../assets/playlist/4.jpeg";
+import PlaylistFive from "../../assets/playlist/5.jpeg";
+import PlaylistSix from "../../assets/playlist/6.jpeg";
+import PlaylistSeven from "../../assets/playlist/7.jpeg";
+import PlaylistEigth from "../../assets/playlist/8.jpeg";
+import PlaylistNine from "../../assets/playlist/9.jpeg";
+import PlaylistTen from "../../assets/playlist/10.jpeg";
+import PlaylistEleven from "../../assets/playlist/11.jpeg";
+import PlaylistTwelve from "../../assets/playlist/12.jpeg";
+import PlaylistThirteen from "../../assets/playlist/13.jpeg";
+import PlaylistFourteen from "../../assets/playlist/14.jpeg";
+import PlaylistFifteen from "../../assets/playlist/15.jpeg";
 
 const Main = () => {
     return (

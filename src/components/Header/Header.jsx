@@ -1,9 +1,9 @@
 import React from "react";
 import '../var.css';
 import './Header.css';
-import smallRigth from '../assets/icons/small-right.png'
-import smallLeft from '../assets/icons/small-left.png'
-import search from '../assets/icons/search.png'
+import smallRigth from '../../assets/icons/small-right.png'
+import smallLeft from '../../assets/icons/small-left.png'
+import search from '../../assets/icons/search.png'
 
 const Header = () => {
     return(

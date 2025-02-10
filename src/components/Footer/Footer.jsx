@@ -1,4 +1,5 @@
 import './Footer.css';
+import '../var.css';
 
 const Footer = () => {
     return (
